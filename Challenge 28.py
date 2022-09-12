@@ -1,0 +1,5 @@
+number = input('Enter a number with a lot of decimal places: ')
+number = float(number.strip())
+new_number = (number * 2)
+new_number = round(new_number, 2)
+print('The number times 2 -rounded two places- equals ' + str(new_number))
